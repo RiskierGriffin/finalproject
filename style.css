@@ -7,3 +7,12 @@ h1{
 .info h2{
   font-size: 24px;
 }
+.info p{
+  line-height: .5in;
+  width: 50%;
+  font-size: 18px;
+}
+.info{
+  display: block;
+  padding-bottom: 10px;
+}
