@@ -1,3 +1,9 @@
 body{
-  background-color: black;
+  font-size: 18px;
+}
+h1{
+  text-align: center;
+}
+.info h2{
+  font-size: 24px;
 }
