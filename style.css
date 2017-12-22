@@ -19,16 +19,20 @@ body{
   vertical-align: top;
   position: relative;
   float: right;
+  width: 175px;
+  height: 200px;
 }
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
 }
 
 li{
@@ -36,18 +40,17 @@ li{
   left: 0;
 }
 
-li a{
+li > a{
   display: block;
-  color: white;
+  color: #666;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover:not(.active){
-  background-color: #111;
-}
-
 .active{
   background-color: #0fcc17;
+}
+nav{
+  margin-bottom: 50px;
 }
